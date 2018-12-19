@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-v3:war">
+    <output-path>$PROJECT_DIR$/../../动脑学院/project/vip-framework-sources-master-11b489532d703723cd0cc5023f3a1ce771c58d1c/spring-v3/target</output-path>
+    <root id="archive" name="spring.war">
+      <element id="artifact" artifact-name="spring-v3:war exploded" />
+    </root>
+  </artifact>
+</component>
