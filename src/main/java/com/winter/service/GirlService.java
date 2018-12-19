@@ -1,6 +1,6 @@
 package com.winter.service;
 
-import com.winter.model.User;
+import com.winter.proxyTest.Girl;
 
 import java.util.List;
 import java.util.Map;
@@ -13,9 +13,9 @@ import java.util.Map;
 
 public interface GirlService {
 
-    public User findUser();
+    public Girl findUser();
 
-    public List<User> findALl();
+    public List<Girl> findALl();
 
     public List<Map<String,Object>> findUserALl();
 

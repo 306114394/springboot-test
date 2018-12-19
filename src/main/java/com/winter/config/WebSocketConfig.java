@@ -1,4 +1,4 @@
-package com.imooc.config;
+package com.winter.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;

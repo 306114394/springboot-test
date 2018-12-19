@@ -1,5 +1,9 @@
 package com.winter.proxyTest;
 
+import com.winter.proxyAutomatic.Boy;
+import com.winter.proxyAutomatic.TeacherChen;
+import com.winter.proxyAutomatic.TonyCompany;
+
 /**
  * @Author:DongXifu
  * @Description:

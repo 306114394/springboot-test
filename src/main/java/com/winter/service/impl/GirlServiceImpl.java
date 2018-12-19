@@ -1,7 +1,9 @@
-package com.winter.service;
+package com.winter.service.impl;
 
-import com.winter.mapper.UserMapper;
+import com.winter.mapper.GirlMapper;
 import com.winter.model.User;
+import com.winter.proxyTest.Girl;
+import com.winter.service.GirlService;
 import com.winter.util.RedisUtil;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
@@ -29,36 +31,43 @@ public class GirlServiceImpl implements GirlService {
 
     AtomicInteger counter =  new AtomicInteger(0);
     @Autowired
-    private UserMapper userMapper;
+    private GirlMapper girlMapper;
 
     @Autowired
     private RedisUtil redisUtil;
 
     Lock lock = new ReentrantLock();
     @Override
-    public User findUser(){
-        return userMapper.selectByPrimaryKey(1);
+    public Girl findUser(){
+        return girlMapper.selectByPrimaryKey(1L);
     }
 
     @Override
-    public List<User> findALl() {
-        return userMapper.findALl();
+    public List<Girl> findALl() {
+        //return girlMapper.findALl();
+        return null;
     }
 
+    /** 
+     * @param  []
+     * @return java.util.List<java.util.Map<java.lang.String,java.lang.Object>>
+     * @describe test
+     * @author Dong Xifu
+     * @date 2018/12/19 下午7:03
+     */
     @Override
     public List<Map<String, Object>> findUserALl() {
         List<Map<String,Object>> list = new ArrayList<>();
-        list = userMapper.findUserALl();
+        //list = girlMapper.findUserALl();
         return list;
     }
 
     @Override
     public int saveUser() {
-        User u = new User();
-        u.setAge(1);
-        u.setCupSize("c");
-        u.setCreateTime(new Date());
-        u.setCurrentTimeMillis(System.currentTimeMillis());
-        return userMapper.insert(u);
+        //Girl girl = new Girl();
+       /* girl.setAge(1);
+        girl.setCupSize("c");*/
+
+        return girlMapper.insert(null);
     }
 }

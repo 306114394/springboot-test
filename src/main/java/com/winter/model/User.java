@@ -9,9 +9,9 @@ public class User {
 
     private String cupSize;
 
-    private Date createTime;
+    private Date createtime;
 
-    private Long currentTimeMillis;
+    private Long currenttimemillis;
 
     public Integer getId() {
         return id;
@@ -37,19 +37,19 @@ public class User {
         this.cupSize = cupSize == null ? null : cupSize.trim();
     }
 
-    public Date getCreateTime() {
-        return createTime;
+    public Date getCreatetime() {
+        return createtime;
     }
 
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
+    public void setCreatetime(Date createtime) {
+        this.createtime = createtime;
     }
 
-    public Long getCurrentTimeMillis() {
-        return currentTimeMillis;
+    public Long getCurrenttimemillis() {
+        return currenttimemillis;
     }
 
-    public void setCurrentTimeMillis(Long currentTimeMillis) {
-        this.currentTimeMillis = currentTimeMillis;
+    public void setCurrenttimemillis(Long currenttimemillis) {
+        this.currenttimemillis = currenttimemillis;
     }
 }
