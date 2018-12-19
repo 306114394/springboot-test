@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../phil_new_wechat-master/new-wechat.iml" filepath="$PROJECT_DIR$/../phil_new_wechat-master/new-wechat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../phil_wechat-master/phil_wechat.iml" filepath="$PROJECT_DIR$/../phil_wechat-master/phil_wechat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring5_IOC/spring-v1.iml" filepath="$PROJECT_DIR$/../spring5_IOC/spring-v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../动脑学院/project/springAop/spring-v3/spring-v3.iml" filepath="$PROJECT_DIR$/../../动脑学院/project/springAop/spring-v3/spring-v3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-demo.iml" filepath="$PROJECT_DIR$/springboot-mybatis-demo.iml" />
+    </modules>
+  </component>
+</project>

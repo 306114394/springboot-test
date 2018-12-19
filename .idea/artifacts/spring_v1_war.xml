@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="spring-v1:war">
-    <output-path>$PROJECT_DIR$/../spring5_IOC-master-3b1686f73fa1ab587e77d365af246d424ed87c72/target</output-path>
+    <output-path>$PROJECT_DIR$/../spring5_IOC/target</output-path>
     <root id="archive" name="spring.war">
       <element id="artifact" artifact-name="spring-v1:war exploded" />
     </root>
