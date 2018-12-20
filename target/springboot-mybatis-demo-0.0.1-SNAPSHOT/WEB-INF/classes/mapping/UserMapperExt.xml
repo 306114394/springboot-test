@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.winter.mapper.UserMapper">
+  <!--<resultMap id="BaseResultMap" type="com.winter.model.User">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="age" jdbcType="INTEGER" property="age" />
+    <result column="cup_size" jdbcType="VARCHAR" property="cupSize" />
+  </resultMap>-->
+  <!--<sql id="Base_Column_List">
+    id, age, cup_size
+  </sql>-->
+  <select id="findALl"  resultMap="BaseResultMap">
+    select * from girl
+  </select>
+
+  <select id="findUserALl"  resultType="java.util.HashMap">
+    select * from girl
+  </select>
+
+
+</mapper>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.winter.springboot.SpringbootMybatisApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.542 sec - in com.winter.springboot.SpringbootMybatisApplicationTests
