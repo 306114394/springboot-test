@@ -2,7 +2,6 @@ package com.winter.controller;
 
 import com.basoft.service.entity.Girl;
 import com.winter.service.GirlService;
-import com.winter.util.RedisUtil;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -30,8 +29,8 @@ public class GirlController {
     @Autowired
     private GirlService girlService;
 
-    @Autowired
-    private RedisUtil redisUtil;
+    /*@Autowired
+    private RedisUtil redisUtil;*/
 
 
 
@@ -62,9 +61,6 @@ public class GirlController {
     @RequestMapping(value = "/findUserALl",method = RequestMethod.GET)
     public List<Map<String,Object>> findUserALl(){
         List<Map<String,Object>> list =  girlService.findUserALl();
-        redisUtil.set("ww",list);
-        Object ob = redisUtil.get("ww");
-        log.info("ob="+ob);
         return  list;
     }
 

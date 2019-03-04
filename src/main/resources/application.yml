@@ -3,7 +3,7 @@ server:
 
 spring:
     #redis配置，以下有默认配置的也可以使用默认配置
-    redis:
+    <!--redis:
       host: 127.0.0.1
       port: 6379
       pool:
@@ -11,7 +11,7 @@ spring:
         max-wait: 10000
         max-idle: 5000
         min-idle: 5000
-      timeout: 50000
+      timeout: 50000-->
 
     datasource:
         name: test

@@ -4,7 +4,6 @@ import com.basoft.service.entity.Girl;
 import com.winter.mapper.GirlMapper;
 import com.winter.model.User;
 import com.winter.service.GirlService;
-import com.winter.util.RedisUtil;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,8 +32,7 @@ public class GirlServiceImpl implements GirlService {
     @Autowired
     private GirlMapper girlMapper;
 
-    @Autowired
-    private RedisUtil redisUtil;
+
 
     Lock lock = new ReentrantLock();
     @Override
