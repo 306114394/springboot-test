@@ -1,8 +1,8 @@
 package com.winter.service.impl;
 
+import com.basoft.service.entity.Girl;
 import com.winter.mapper.GirlMapper;
 import com.winter.model.User;
-import com.winter.proxyTest.Girl;
 import com.winter.service.GirlService;
 import com.winter.util.RedisUtil;
 import org.apache.log4j.LogManager;
@@ -39,17 +39,16 @@ public class GirlServiceImpl implements GirlService {
     Lock lock = new ReentrantLock();
     @Override
     public Girl findUser(){
-        return girlMapper.selectByPrimaryKey(1L);
+        return null;
     }
 
     @Override
     public List<Girl> findALl() {
-        //return girlMapper.findALl();
-        return null;
+        return girlMapper.findALl();
     }
 
     /** 
-     * @param  []
+     * @param
      * @return java.util.List<java.util.Map<java.lang.String,java.lang.Object>>
      * @describe test
      * @author Dong Xifu
@@ -68,6 +67,6 @@ public class GirlServiceImpl implements GirlService {
        /* girl.setAge(1);
         girl.setCupSize("c");*/
 
-        return girlMapper.insert(null);
+        return 0;
     }
 }

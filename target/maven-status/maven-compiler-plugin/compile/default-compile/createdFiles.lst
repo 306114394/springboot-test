@@ -1,9 +1,0 @@
-com/winter/service/GirlServiceImpl.class
-com/winter/controller/GirlController.class
-com/winter/service/GirlService.class
-com/winter/SpringbootTestApplication.class
-com/winter/model/User.class
-com/winter/controller/Test.class
-com/winter/mapper/UserMapper.class
-com/winter/util/RedisUtil.class
-com/winter/CorsFilter.class

@@ -1,12 +1,9 @@
 package com.winter.controller;
 
-import com.winter.proxyTest.Girl;
+import com.basoft.service.entity.Girl;
 import com.winter.service.GirlService;
-import com.winter.model.User;
-import com.winter.service.WebSocket;
 import com.winter.util.RedisUtil;
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,6 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 import java.util.Map;
+import java.util.logging.Logger;
 
 
 /**
@@ -24,9 +22,9 @@ import java.util.Map;
  * @Description:
  * @Date Created in 下午12:07 2018/7/22
  **/
-@Controller
+@RestController
 public class GirlController {
-    protected Logger log = LogManager.getLogger(this.getClass());
+    private org.slf4j.Logger log = LoggerFactory.getLogger(this.getClass());
 
 
     @Autowired
@@ -34,8 +32,7 @@ public class GirlController {
 
     @Autowired
     private RedisUtil redisUtil;
-    @Autowired
-    private WebSocket webSocket;
+
 
 
     @RequestMapping(value = "/test",method = RequestMethod.GET)
@@ -57,8 +54,8 @@ public class GirlController {
     @RequestMapping(value = "/findAll",method = RequestMethod.GET)
     public List<Girl> findAll(){
         List<Girl> list =  girlService.findALl();
-        redisUtil.lSet("list",list);
-        redisUtil.get("list");
+        /*redisUtil.lSet("list",list);
+        redisUtil.get("list");*/
         return  list;
     }
 

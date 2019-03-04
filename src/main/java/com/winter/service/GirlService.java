@@ -1,6 +1,7 @@
 package com.winter.service;
 
-import com.winter.proxyTest.Girl;
+
+import com.basoft.service.entity.Girl;
 
 import java.util.List;
 import java.util.Map;

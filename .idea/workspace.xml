@@ -5,9 +5,176 @@
       <artifact name="phil_wechat:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="AutomaticModuleUnloader">
+    <option name="modules">
+      <list>
+        <option value="springboot-mybatis-demo" />
+        <option value="new-wechat" />
+        <option value="phil_wechat" />
+        <option value="spring-v3" />
+      </list>
+    </option>
+    <loaded-modules>
+      <module name="springboot-mybatis-demo" />
+      <module name="new-wechat" />
+      <module name="phil_wechat" />
+      <module name="spring-v3" />
+    </loaded-modules>
+  </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="caa79e66-a920-4e9b-b94d-8ea9c3f4ac3e" name="Default" comment="springbootredis">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Dockerfile" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/SpringbootTestApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/winter/SpringbootTestApplication.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/controller/GirlController.java" afterPath="$PROJECT_DIR$/src/main/java/com/winter/controller/GirlController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/controller/sendController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/mapper/EorderCategoryMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/mapper/GirlMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/winter/mapper/GirlMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/proxyAutomatic/Boy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/proxyAutomatic/MyInvationHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/proxyAutomatic/PlayGame.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/proxyAutomatic/TeacherChen.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/proxyAutomatic/TonyCompany.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/proxyTest/Girl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/proxyTest/PlayGame.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/proxyTest/TeacherCang.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/proxyTest/Tony.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/proxyTest/TuHao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/service/GirlService.java" afterPath="$PROJECT_DIR$/src/main/java/com/winter/service/GirlService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/service/WebSocket.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/service/impl/GirlServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/winter/service/impl/GirlServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/EorderCategoryMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/UserMapperExt.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/UserMapperExt.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/EorderCategoryMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/UserMapperExt.xml" afterPath="$PROJECT_DIR$/target/classes/mapping/UserMapperExt.xml" />
+      <change beforePath="$PROJECT_DIR$/target/localhost.2018-10-12.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.winter/springboot-mybatis-demo/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.winter/springboot-mybatis-demo/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT.war.original" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/CorsFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/SpringbootTestApplication.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/config/WebSocketConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/controller/GirlController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/controller/ResultBean.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/controller/Test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/controller/sendController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/mapper/UserMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/model/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/proxyAutomatic/Boy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/proxyAutomatic/MyInvationHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/proxyAutomatic/PlayGame.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/proxyAutomatic/TeacherChen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/proxyAutomatic/TonyCompany.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/proxyTest/Girl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/proxyTest/PlayGame.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/proxyTest/TeacherCang.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/proxyTest/Tony.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/proxyTest/TuHao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/service/GirlService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/service/GirlServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/service/WebSocket.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/service/impl/GirlServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/com/winter/util/RedisUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/generator/generatorConfig.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/mapping/UserMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/mapping/UserMapperExt.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/static/api/ratings.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/static/api/seller.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/static/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/static/mp3/song.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/static/pay.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/templates/category/index.ftl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/templates/category/list.ftl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/templates/common/error.ftl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/templates/common/header.ftl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/templates/common/nav.ftl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/templates/common/success.ftl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/classes/templates/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/classmate-1.3.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/commons-pool2-2.4.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/druid-1.1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/druid-spring-boot-starter-1.1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/groovy-2.4.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-validator-5.3.5.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.8.9.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.8.9.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-joda-2.8.9.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.8.9.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/javassist-3.21.0-GA.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.1.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/jedis-2.9.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/joda-time-2.9.9.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/jsqlparser-0.9.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-over-slf4j-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.1.11.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/logback-core-1.1.11.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/lombok-1.16.18.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-3.4.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-autoconfigure-1.3.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-starter-1.3.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.35.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/ognl-3.0.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/pagehelper-5.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/pagehelper-spring-boot-autoconfigure-1.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/pagehelper-spring-boot-starter-1.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/snakeyaml-1.17.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.10.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.10.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-1.5.6.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-1.5.6.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-1.5.6.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-data-redis-1.5.6.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-jdbc-1.5.6.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-1.5.6.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-thymeleaf-1.5.6.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-1.5.6.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-1.5.6.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-websocket-1.5.6.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-4.3.10.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-support-4.3.10.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-4.3.10.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-commons-1.13.6.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-keyvalue-1.2.6.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-redis-1.8.6.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.10.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.10.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-messaging-4.3.10.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-oxm-4.3.10.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.10.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-4.3.10.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.10.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-websocket-4.3.10.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-2.1.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-layout-dialect-1.4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-spring4-2.1.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-8.5.16.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-8.5.16.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-8.5.16.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-jdbc-8.5.16.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-juli-8.5.16.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/unbescape-1.1.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis-demo-0.0.1-SNAPSHOT/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-mybatis.war" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.winter.springboot.RedisTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.winter.springboot.SpringbootMybatisApplicationTests.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.winter.springboot.RedisTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.winter.springboot.SpringbootMybatisApplicationTests.txt" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../spring5_IOC-master-3b1686f73fa1ab587e77d365af246d424ed87c72/target/" />
@@ -27,13 +194,128 @@
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="-2949">
+              <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringbootTestApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/SpringbootTestApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CmCodeMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/mapper/CmCodeMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GirlController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/controller/GirlController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GirlService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/service/GirlService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GirlServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/service/impl/GirlServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1153#1154#0" expanded="true" />
+                <element signature="e#1180#1181#0" expanded="true" />
+                <element signature="e#1229#1230#0" expanded="true" />
+                <element signature="e#1272#1273#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GirlMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/mapper/GirlMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapperExt.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/UserMapperExt.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding>
+                <marker date="1548140518874" expanded="true" signature="656:674" ph="select * fro... girl" />
+                <marker date="1548140518874" expanded="true" signature="763:781" ph="select * fro... girl" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CmCodeMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/CmCodeMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <folding>
+                <marker date="1545219774487" expanded="true" signature="3643:3884" ph="select , fro... " />
+                <marker date="1545219774487" expanded="true" signature="3989:4137" ph="delete from cm_code... " />
+                <marker date="1545219774487" expanded="true" signature="4243:4262" ph="delete from cm_code... " />
+                <marker date="1545219774487" expanded="true" signature="4454:4869" ph="insert into cm_code... " />
+                <marker date="1545219774487" expanded="true" signature="7701:8183" ph="update cm_code... " />
+                <marker date="1545219774487" expanded="true" signature="8356:8730" ph="update cm_code... " />
+                <marker date="1545219774487" expanded="true" signature="8953:9694" ph="update cm_code... " />
+                <marker date="1545219774487" expanded="true" signature="9814:10242" ph="update cm_code... " />
+                <marker date="1545219774487" expanded="true" signature="10344:10678" ph="update cm_code... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,7 +332,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>spring-boot-start</find>
       <find>spring-boot-starter-web</find>
       <find>org.springframework.boot</find>
       <find>&gt;spring-boot-starter-tomcat</find>
@@ -80,6 +361,7 @@
       <find>redis</find>
       <find>redisTemplate</find>
       <find>BaseResultMap</find>
+      <find>com.winter.mapper.GirlMapper</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/../phil_wechat-master/src/main/java</dir>
@@ -101,7 +383,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/test/java/com/winter/springboot/RedisTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/winter/springboot/Demo4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/winter/SpringbootTestApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/winter/util/RedisUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/winter/controller/ResultBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/winter/proxyTest/Tony.java" />
@@ -127,11 +408,15 @@
         <option value="$PROJECT_DIR$/../phil_wechat-master/src/main/java/com/phil/wechat/msg/controller/WechatMsgController.java" />
         <option value="$PROJECT_DIR$/../phil_new_wechat-master/src/main/java/com/phil/wechat/qrcode/controller/WechatQRCodeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/winter/service/GirlService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/winter/controller/GirlController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/winter/mapper/GirlMapper.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/winter/SpringbootTestApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/winter/service/impl/GirlServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/winter/mapper/GirlMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/UserMapperExt.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/winter/controller/GirlController.java" />
+        <option value="$PROJECT_DIR$/DockerFIle" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
       </list>
     </option>
   </component>
@@ -168,11 +453,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot-mybatis-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="springboot-mybatis-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot-mybatis-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="springboot-mybatis-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -183,11 +468,11 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-Dmaven.multiModuleProjectDirectory=$M2_HOME" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="645" />
-    <option name="y" value="597" />
-    <option name="width" value="1507" />
-    <option name="height" value="832" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="154" />
+    <option name="y" value="104" />
+    <option name="width" value="1440" />
+    <option name="height" value="794" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -522,9 +807,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -574,6 +860,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="basoft" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="winter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -586,101 +882,16 @@
               <item name="winter" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="proxyTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapping" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -721,7 +932,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.generate">
+  <component name="RunManager" selected="Spring Boot.SpringbootTestApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1013,10 +1224,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AOPTest.testCirculationDI" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DefaultBeanFactoryTest.testRegist" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.WechatMainApplication" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.SpringbootTestApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.SpringbootTestApplication" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AOPTest.testCirculationDI" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DefaultBeanFactoryTest.testRegist" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.WechatMainApplication" />
         <item index="4" class="java.lang.String" itemvalue="Application.PlayGame (1)" />
       </list>
     </recent_temporary>
@@ -1046,6 +1257,12 @@
       <workItem from="1544086667300" duration="5626000" />
       <workItem from="1545216519034" duration="97000" />
       <workItem from="1545216670076" duration="1362000" />
+      <workItem from="1546838773895" duration="2000" />
+      <workItem from="1548127971234" duration="6861000" />
+      <workItem from="1548912050995" duration="1678000" />
+      <workItem from="1549289404042" duration="805000" />
+      <workItem from="1551256605790" duration="3511000" />
+      <workItem from="1551683433374" duration="119000" />
     </task>
     <task id="LOCAL-00001" summary="springbootredis">
       <created>1539141329362</created>
@@ -1097,67 +1314,81 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109543000" />
+    <option name="totallyTimeSpent" value="123811000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="176" y="102" width="1507" height="832" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28493893" sideWeight="0.35481536" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17337884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61329716" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39891452" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24982935" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971507" sideWeight="0.5023891" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15153584" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28493893" sideWeight="0.35481536" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2737147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2973352" sideWeight="0.8732802" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31680775" sideWeight="0.8732802" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31977558" sideWeight="0.4916727" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15307583" sideWeight="0.4916727" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48640916" sideWeight="0.8834178" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21318373" sideWeight="0.8834178" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5074627" sideWeight="0.49761093" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21843003" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31559855" sideWeight="0.49761093" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34477827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971507" sideWeight="0.5023891" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28493893" sideWeight="0.35481536" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1509299" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2737147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2973352" sideWeight="0.8732802" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15307583" sideWeight="0.4916727" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5493562" sideWeight="0.8834178" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32188842" sideWeight="0.49761093" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3197425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1178,7 +1409,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/winter/controller/GirlController.java</url>
-          <line>53</line>
+          <line>50</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
@@ -1197,7 +1428,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/../phil_wechat-master/src/main/java/com/phil/wechat/auth/controller/WechatAuthController.java</url>
           <line>48</line>
-          <properties class="com.phil.wechat.auth.controller.WechatAuthController">
+          <properties class="com.phil.wechat.auth.controller.WechatAuthController" method="getLocation">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="26" />
@@ -1206,77 +1437,11 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="32" />
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/SpringbootTestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/config/WebSocketConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/service/WebSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/controller/sendController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/mapper/UserMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/UserMapperExt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1538969506000" expanded="true" signature="593:611" ph="select * fro... girl" />
-            <marker date="1538969506000" expanded="true" signature="689:707" ph="select * fro... girl" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/model/GirlExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/model/Girl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basoft/service/entity/GirlExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basoft/service/entity/CmCodeWithBLOBs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../phil_wechat-master/src/main/java/com/phil/modules/annotation/NotRequire.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1415,13 +1580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/mapper/EorderCategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/basoft/service/entity/EorderCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1429,26 +1587,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/basoft/service/entity/Girl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="106" lean-forward="false" selection-start-line="14" selection-start-column="106" selection-end-line="14" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1456,15 +1598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1472,59 +1605,154 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="169" column="26" lean-forward="false" selection-start-line="169" selection-start-column="26" selection-end-line="169" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/GirlMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/service/GirlService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/proxyTest/TeacherCang.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/proxyTest/Girl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/proxyAutomatic/PlayGame.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/service/WebSocket.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/controller/sendController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/basoft/service/entity/Girl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/proxyTest/TeacherCang.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/CmCodeMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="132">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <marker date="1545219774487" expanded="true" signature="3643:3884" ph="select , fro... " />
+            <marker date="1545219774487" expanded="true" signature="3989:4137" ph="delete from cm_code... " />
+            <marker date="1545219774487" expanded="true" signature="4243:4262" ph="delete from cm_code... " />
+            <marker date="1545219774487" expanded="true" signature="4454:4869" ph="insert into cm_code... " />
+            <marker date="1545219774487" expanded="true" signature="7701:8183" ph="update cm_code... " />
+            <marker date="1545219774487" expanded="true" signature="8356:8730" ph="update cm_code... " />
+            <marker date="1545219774487" expanded="true" signature="8953:9694" ph="update cm_code... " />
+            <marker date="1545219774487" expanded="true" signature="9814:10242" ph="update cm_code... " />
+            <marker date="1545219774487" expanded="true" signature="10344:10678" ph="update cm_code... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/controller/GirlController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-536">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="132">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/proxyTest/Girl.java">
+    <entry file="jar:///Applications/mvnTool_4dx/org/springframework/boot/spring-boot/1.5.6.RELEASE/spring-boot-1.5.6.RELEASE-sources.jar!/org/springframework/boot/web/support/SpringBootServletInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="-221">
+          <caret line="64" column="22" lean-forward="false" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/mapper/EorderCategoryMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/EorderCategoryMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/mapper/CmCodeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/mapper/GirlMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/UserMapperExt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <marker date="1548140518874" expanded="true" signature="656:674" ph="select * fro... girl" />
+            <marker date="1548140518874" expanded="true" signature="763:781" ph="select * fro... girl" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/service/GirlService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/service/impl/GirlServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        <state relative-caret-position="990">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1148#1149#0" expanded="false" />
-            <element signature="e#1204#1205#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2949">
+          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/SpringbootTestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/controller/GirlController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
