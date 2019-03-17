@@ -19,5 +19,9 @@
     select * from girl
   </select>
 
+  <select id="findOne" resultType="com.basoft.service.entity.Girl">
+    select * from girl limit 0,1
+  </select>
+
 
 </mapper>

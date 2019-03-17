@@ -20,33 +20,13 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="caa79e66-a920-4e9b-b94d-8ea9c3f4ac3e" name="Default" comment="redis">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" readonly="true" id="caa79e66-a920-4e9b-b94d-8ea9c3f4ac3e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/api/ratings.json" afterPath="$PROJECT_DIR$/target/classes/static/api/ratings.json" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/api/seller.json" afterPath="$PROJECT_DIR$/target/classes/static/api/seller.json" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" afterPath="$PROJECT_DIR$/target/classes/static/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/mp3/song.mp3" afterPath="$PROJECT_DIR$/target/classes/static/mp3/song.mp3" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/pay.html" afterPath="$PROJECT_DIR$/target/classes/static/pay.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/category/index.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/category/index.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/category/list.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/category/list.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/common/error.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/common/error.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/common/header.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/common/header.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/common/nav.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/common/nav.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/common/success.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/common/success.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/order/detail.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/order/detail.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/order/list.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/order/list.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/pay/create.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/pay/create.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/pay/success.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/pay/success.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/product/index.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/product/index.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/product/list.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/product/list.ftl" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/mapper/GirlMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/winter/mapper/GirlMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/service/impl/GirlServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/winter/service/impl/GirlServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/UserMapperExt.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/UserMapperExt.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/UserMapperExt.xml" afterPath="$PROJECT_DIR$/target/classes/mapping/UserMapperExt.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../spring5_IOC-master-3b1686f73fa1ab587e77d365af246d424ed87c72/target/" />
@@ -71,7 +51,7 @@
       <file leaf-file-name="BuyerOrderController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../project/sell/src/main/java/com/imooc/controller/BuyerOrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="0">
               <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding />
             </state>
@@ -81,38 +61,8 @@
       <file leaf-file-name="BuyerProductController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../project/sell/src/main/java/com/imooc/controller/BuyerProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="417">
               <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductInfoVO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../project/sell/src/main/java/com/imooc/VO/ProductInfoVO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SellApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../project/sell/src/main/java/com/imooc/SellApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../project/sell/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -141,8 +91,8 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="205">
+              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -151,19 +101,56 @@
       <file leaf-file-name="GirlController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/controller/GirlController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="215">
+              <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logback-spring.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../project/sell/src/main/resources/logback-spring.xml">
+      <file leaf-file-name="GirlService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/service/GirlService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="43" column="60" lean-forward="false" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
+            <state relative-caret-position="163">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GirlServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/service/impl/GirlServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1072#1073#0" expanded="true" />
+                <element signature="e#1116#1117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GirlMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/mapper/GirlMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapperExt.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/UserMapperExt.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+              <folding>
+                <marker date="1552790512552" expanded="true" signature="763:781" ph="select * fro... girl" />
+                <marker date="1552790512552" expanded="true" signature="867:895" ph="select * fro... girl" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,7 +167,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>provided</find>
       <find>websocket</find>
       <find>onMessage</find>
       <find>THYMELEAF_ROOT</find>
@@ -210,6 +196,7 @@
       <find>/pay</find>
       <find>.log</find>
       <find>/var/log/tomcat/sell</find>
+      <find>girlMapper</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/../phil_wechat-master/src/main/java</dir>
@@ -257,10 +244,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/winter/service/GirlService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/winter/SpringbootTestApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/winter/mapper/GirlMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/UserMapperExt.xml" />
         <option value="$PROJECT_DIR$/DockerFIle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/winter/service/impl/GirlServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/winter/controller/GirlController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/run.sh" />
         <option value="$PROJECT_DIR$/Dockerfile" />
@@ -270,6 +254,9 @@
         <option value="$PROJECT_DIR$/../../project/sell/src/main/resources/logback-spring.xml" />
         <option value="$PROJECT_DIR$/../../project/sell/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/UserMapperExt.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/winter/mapper/GirlMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/winter/service/impl/GirlServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -694,7 +681,79 @@
               <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="basoft" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="basoft" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="basoft" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="winter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="winter" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -753,7 +812,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SellApplication">
+  <component name="RunManager" selected="Spring Boot.SpringbootTestApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1059,9 +1118,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SellApplication" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SellApplicationTests.contextLoads" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.SpringbootTestApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.SpringbootTestApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SellApplication" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SellApplicationTests.contextLoads" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.AOPTest.testCirculationDI" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.DefaultBeanFactoryTest.testRegist" />
       </list>
@@ -1104,7 +1163,7 @@
       <workItem from="1552369745575" duration="57000" />
       <workItem from="1552372989327" duration="5171000" />
       <workItem from="1552460382883" duration="504000" />
-      <workItem from="1552647871940" duration="1316000" />
+      <workItem from="1552647871940" duration="2768000" />
     </task>
     <task id="LOCAL-00001" summary="springbootredis">
       <created>1539141329362</created>
@@ -1162,7 +1221,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551691395539</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="redis">
+      <created>1552789269212</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552789269212</updated>
+    </task>
+    <task id="LOCAL-00010" summary="redis">
+      <created>1552796212566</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1552796212566</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1198,7 +1271,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140838000" />
+    <option name="totallyTimeSpent" value="142290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -1207,21 +1280,22 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52116084" sideWeight="0.37195995" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28493893" sideWeight="0.35481536" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1602289" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09799714" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2737147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5937122" sideWeight="0.6280401" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21886337" sideWeight="0.6280401" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15235792" sideWeight="0.4916727" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34945586" sideWeight="0.8834178" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2853688" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34945586" sideWeight="0.8834178" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46916565" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16324063" sideWeight="0.49761093" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2732475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1234,7 +1308,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15235792" sideWeight="0.4916727" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1329,7 +1402,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="35" />
+      <option name="time" value="36" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1468,27 +1541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/mapper/GirlMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/UserMapperExt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/service/GirlService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/config/WebSocketConfig.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1506,13 +1558,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/util/RedisUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/service/impl/GirlServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/winter/springboot/RedisTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/dd.yml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/run.sh">
@@ -1582,42 +1627,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../project/sell/src/main/java/com/imooc/SellApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../project/sell/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
           <caret line="43" column="60" lean-forward="false" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../project/sell/src/main/java/com/imooc/VO/ProductInfoVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../project/sell/src/main/java/com/imooc/controller/BuyerProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../project/sell/src/main/java/com/imooc/controller/BuyerOrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1646,18 +1659,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../project/sell/src/main/java/com/imooc/SellApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../project/sell/src/main/java/com/imooc/VO/ProductInfoVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../project/sell/src/main/java/com/imooc/controller/BuyerProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../project/sell/src/main/java/com/imooc/controller/BuyerOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/controller/GirlController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="215">
+          <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/service/GirlService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/mapper/GirlMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/UserMapperExt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <marker date="1552790512552" expanded="true" signature="763:781" ph="select * fro... girl" />
+            <marker date="1552790512552" expanded="true" signature="867:895" ph="select * fro... girl" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/service/impl/GirlServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="205">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding />
         </state>
       </provider>

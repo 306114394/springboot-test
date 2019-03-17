@@ -37,7 +37,7 @@ public class GirlServiceImpl implements GirlService {
     Lock lock = new ReentrantLock();
     @Override
     public Girl findUser(){
-        return null;
+        return  girlMapper.findOne();
     }
 
     @Override

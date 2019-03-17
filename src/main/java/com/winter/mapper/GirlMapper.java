@@ -10,4 +10,5 @@ import java.util.List;
 @Repository
 public interface GirlMapper {
     List<Girl> findALl();
+    Girl findOne();
 }
