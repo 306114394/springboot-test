@@ -1,4 +1,4 @@
-FROM  maven:3.5.0
+FROM  192.168.0.81:5000/basoft/maven.3.6.0:latest
 MAINTAINER dongxifu
 
 
@@ -27,7 +27,7 @@ RUN mvn install -Dmaven.test.skip=true
 
 WORKDIR /usr/local/spring-test/target
 
-RUN chmod +x run.sh
+RUN chmod +x /usr/local/spring-test/target/run.sh
 #WORKDIR /usr/local/spring-test/target
 
 ENTRYPOINT ["/usr/local/spring-test/target/run.sh"]

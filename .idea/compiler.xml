@@ -6,8 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="new-wechat" />
-        <module name="phil_wechat" />
+        <module name="sell" />
         <module name="spring-v3" />
         <module name="springboot-mybatis-demo" />
       </profile>
@@ -15,6 +14,7 @@
     <bytecodeTargetLevel>
       <module name="new-wechat" target="1.8" />
       <module name="phil_wechat" target="1.7" />
+      <module name="sell" target="1.8" />
       <module name="spring-v1" target="1.8" />
       <module name="spring-v3" target="1.8" />
       <module name="springboot-mybatis-demo" target="1.7" />
