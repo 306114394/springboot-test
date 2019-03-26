@@ -1,6 +1,6 @@
 package com.basoft.service.entity;
 
-public class Girl {
+public class Girl implements java.io.Serializable{
     private Long id;
 
     private String name;
@@ -8,6 +8,8 @@ public class Girl {
     private Integer age;
 
     private String cup;
+
+    private Long timestamp;
 
     public Long getId() {
         return id;
@@ -22,7 +24,7 @@ public class Girl {
     }
 
     public void setName(String name) {
-        this.name = name == null ? null : name.trim();
+        this.name = name;
     }
 
     public Integer getAge() {
@@ -39,5 +41,13 @@ public class Girl {
 
     public void setCup(String cup) {
         this.cup = cup == null ? null : cup.trim();
+    }
+
+    public Long getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(Long timestamp) {
+        this.timestamp = timestamp;
     }
 }

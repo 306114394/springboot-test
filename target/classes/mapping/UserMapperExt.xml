@@ -23,5 +23,10 @@
     select * from girl limit 0,1
   </select>
 
+  <insert id="saveGril" parameterType="com.basoft.service.entity.Girl" >
+    insert into girl ( name, age,cup,timestamp)
+    values ( #{name,jdbcType=VARCHAR}, #{age},#{cup},#{timestamp} )
+  </insert>
+
 
 </mapper>

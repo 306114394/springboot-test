@@ -18,8 +18,8 @@ public interface GirlService {
 
     public List<Girl> findALl();
 
-    public List<Map<String,Object>> findUserALl();
+    public List<Girl> findUserALl();
 
-    public int saveUser();
+    public int saveGirl(Girl girl);
 
 }

@@ -53,18 +53,14 @@ public class GirlServiceImpl implements GirlService {
      * @date 2018/12/19 下午7:03
      */
     @Override
-    public List<Map<String, Object>> findUserALl() {
-        List<Map<String,Object>> list = new ArrayList<>();
-        //list = girlMapper.findUserALl();
+    public List<Girl> findUserALl() {
+        List<Girl> list = new ArrayList<>();
+        list = girlMapper.findALl();
         return list;
     }
 
     @Override
-    public int saveUser() {
-        //Girl girl = new Girl();
-       /* girl.setAge(1);
-        girl.setCupSize("c");*/
-
-        return 0;
+    public int saveGirl(Girl girl) {
+        return  girlMapper.saveGril(girl);
     }
 }

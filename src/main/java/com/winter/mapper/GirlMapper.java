@@ -11,4 +11,6 @@ import java.util.List;
 public interface GirlMapper {
     List<Girl> findALl();
     Girl findOne();
+
+    int saveGril(Girl girl);
 }

@@ -1,6 +1,10 @@
 package com.winter.springboot;
 
+import com.basoft.service.entity.Girl;
+import com.winter.enumerate.BusinessTypeEnum;
 import com.winter.service.GirlService;
+import com.winter.service.base.IdService;
+import com.winter.util.UidGenerator;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.junit.After;
@@ -11,16 +15,20 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.CountDownLatch;
 
+/**
+ * 高并发测试
+ */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class SpringbootMybatisApplicationTests {
 	protected Logger log = LogManager.getLogger(this.getClass());
 	@Autowired
 	private GirlService girlService;
+	@Autowired
+	private IdService idService;
 
 	private static final String TICKET_SEQ = "Z204";
 
@@ -39,8 +47,9 @@ public class SpringbootMybatisApplicationTests {
 
 	@After
 	public void end(){
-		System.out.println("结束测试,测试时长:"+(System.currentTimeMillis()-time));
+		System.out.println("结束测试,测试时长:"+(System.currentTimeMillis()-time)/60+"秒");
 	}
+
 
 	@Test
 	public void benchmark()throws Exception{
@@ -64,11 +73,28 @@ public class SpringbootMybatisApplicationTests {
 			try {
 				cdl.await();
 
-				//girlService.saveUser();
+
 			}catch (InterruptedException e){
 				e.getStackTrace();
 			}
-			List<Map<String,Object>> list =  girlService.findUserALl();
+			Girl girl = new Girl();
+			Random random = new Random();
+			int rm = random.nextInt(1000000000);
+			Long id = idService.generateGirl()+rm+1553225734076L;
+
+			girl.setId(id);
+			girl.setAge(18);
+			girl.setCup("c");
+			girl.setName("小红");
+			girl.setTimestamp(System.currentTimeMillis());
+
+			synchronized(this){
+				for (int i=0;i<1000;i++) {
+					int result =  girlService.saveGirl(girl);
+					System.out.println(id+"--------"+ System.currentTimeMillis()+"——————————"+rm);
+				}
+			}
+			//List<Girl> list =  girlService.findUserALl();
 		}
 	}
 
