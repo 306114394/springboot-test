@@ -28,7 +28,7 @@
                         </thead>
                         <tbody>
 
-                        <#list orderDTOPage.content as orderDTO>
+                        <#--<#list orderDTOPage.content as orderDTO>
                         <tr>
                             <td>${orderDTO.orderId}</td>
                             <td>${orderDTO.buyerName}</td>
@@ -45,13 +45,13 @@
                                 </#if>
                             </td>
                         </tr>
-                        </#list>
+                        </#list>-->
                         </tbody>
                     </table>
                 </div>
 
             <#--分页-->
-                <div class="col-md-12 column">
+                <#--<div class="col-md-12 column">
                     <ul class="pagination pull-right">
                     <#if currentPage lte 1>
                         <li class="disabled"><a href="#">上一页</a></li>
@@ -74,7 +74,7 @@
                     </#if>
                     </ul>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 
@@ -103,7 +103,7 @@
 
 <#--播放音乐-->
 <audio id="notice" loop="loop">
-    <source src="/sell/mp3/song.mp3" type="audio/mpeg" />
+    <source src="/mp3/song.mp3" type="audio/mpeg" />
 </audio>
 
 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
@@ -111,7 +111,7 @@
 <script>
     var websocket = null;
     if('WebSocket' in window) {
-        websocket = new WebSocket('ws://sell.natapp4.cc/sell/webSocket');
+        websocket = new WebSocket('ws://192.168.1.132:8003/webSocket');
     }else {
         alert('该浏览器不支持websocket!');
     }

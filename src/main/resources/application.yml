@@ -48,10 +48,3 @@ pagehelper:
     supportMethodsArguments: true
     params: count=countSql
 
-spec:
-  containers:
-  - image: dk.io/library/group-performance-service:0.0.8
-    env:
-      - name: "JAVA_OPTIONS"
-        value: "-Xms256m -Xmx512m -Xss1m"
-    name: res-gather

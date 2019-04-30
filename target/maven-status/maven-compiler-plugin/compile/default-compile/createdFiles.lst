@@ -26,6 +26,5 @@ com/basoft/service/entity/CmCodeExample$GeneratedCriteria.class
 com/basoft/service/entity/EorderCategoryExample$Criterion.class
 com/winter/mapper/CmCodeMapper.class
 com/basoft/service/entity/GirlExample.class
-com/winter/controller/Test.class
 com/basoft/service/entity/EorderCategory.class
 com/winter/CorsFilter.class
