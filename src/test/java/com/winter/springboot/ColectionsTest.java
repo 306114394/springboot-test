@@ -3,9 +3,13 @@ package com.winter.springboot;
 import com.basoft.service.entity.StringAddress;
 import org.apache.catalina.Store;
 import org.junit.Test;
+import org.springframework.beans.BeanUtils;
 import sun.rmi.rmic.Generator;
 
 import javax.swing.text.html.HTMLDocument;
+import java.lang.annotation.Inherited;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.*;
 
 /**
@@ -34,4 +38,29 @@ public class ColectionsTest {
         //System.out.println(stringList);
 
     }
+
+    @Test
+    public void  TestQueue(){
+        Queue<Integer> queue = new LinkedList<Integer>();
+        Random rand = new Random(47);
+        for (int i=0;i<10;i++){
+            queue.offer(rand.nextInt(i + 10));
+        }
+        printQ(queue);
+
+        Queue<Character> qc = new LinkedList<Character>();
+        for (char c:"Brontosaurus".toCharArray())
+            qc.offer(c);
+        printQ(qc);
+
+
+
+    }
+
+    private void printQ(Queue queue) {
+        while (queue.peek()!=null)
+            System.out.println(queue.remove()+" ");
+        //System.out.println();
+    }
+
 }

@@ -36,4 +36,5 @@ public abstract class Duck {
     public void swim(){
         System.out.println("ALL ducks float,even decoys");
     }
+
 }

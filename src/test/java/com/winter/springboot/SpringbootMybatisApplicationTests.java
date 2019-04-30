@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
 import java.util.*;
 import java.util.concurrent.CountDownLatch;
 
@@ -32,7 +31,7 @@ public class SpringbootMybatisApplicationTests {
 
 	private static final String TICKET_SEQ = "Z204";
 
-	private static final int TreadNum = 2000;
+	private static final int TreadNum = 1;
 
 	private CountDownLatch cdl = new CountDownLatch(TreadNum);
 
@@ -72,8 +71,6 @@ public class SpringbootMybatisApplicationTests {
 		public void run() {
 			try {
 				cdl.await();
-
-
 			}catch (InterruptedException e){
 				e.getStackTrace();
 			}
@@ -89,10 +86,8 @@ public class SpringbootMybatisApplicationTests {
 			girl.setTimestamp(System.currentTimeMillis());
 
 			synchronized(this){
-				for (int i=0;i<1000;i++) {
-					int result =  girlService.saveGirl(girl);
+					  //girlService.findUserALl();
 					System.out.println(id+"--------"+ System.currentTimeMillis()+"——————————"+rm);
-				}
 			}
 			//List<Girl> list =  girlService.findUserALl();
 		}

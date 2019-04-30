@@ -2,6 +2,7 @@ package com.winter.controller;
 
 import com.basoft.service.entity.Girl;
 import com.winter.service.GirlService;
+import com.winter.service.WebSocket;
 import com.winter.util.RedisUtil;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,6 +34,8 @@ public class GirlController {
     @Autowired
     private RedisUtil redisUtil;
 
+    @Autowired
+    private WebSocket webSocket;
 
 
     @RequestMapping(value = "/test",method = RequestMethod.GET)
@@ -48,6 +51,7 @@ public class GirlController {
 
     @RequestMapping(value = "/query",method = RequestMethod.GET)
     public String Query(){
+        webSocket.sendMessage("333");
         return "index";
     }
 

@@ -1,5 +1,7 @@
 package com.winter.springboot.designModel.strategy;
 
+import com.sun.org.apache.xpath.internal.operations.Mod;
+
 /**
  * @Author:DongXifu
  * @Description:
@@ -7,13 +9,14 @@ package com.winter.springboot.designModel.strategy;
  **/
 public class MiniDuckSimulator {
     public static void main(String[] args) {
-        /*Duck mallard = new MallardDuck();
+        Duck mallard = new MallardDuck();
         mallard.performQuack();
-        mallard.performFly();*/
+        mallard.performFly();
+        mallard.swim();
 
-        Duck model = new ModelDuck();
-       // model.performFly();
-        model.setFlyBehavior(new FlyRocketPowered());
+        /*Duck model = new ModelDuck();
         model.performFly();
+        model.setFlyBehavior(new FlyRocketPowered());
+        model.performFly();*/
     }
 }

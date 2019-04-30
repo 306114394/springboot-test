@@ -6,18 +6,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dn-rpc" />
+        <module name="dubbo-consumer" />
+        <module name="dubbo-facade" />
+        <module name="dubbo-provider" />
+        <module name="rpc-framework" />
         <module name="sell" />
+        <module name="spring-boot-dubbo" />
+        <module name="spring-v1" />
         <module name="spring-v3" />
         <module name="springboot-mybatis-demo" />
+        <module name="zk-study" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dn-rpc" target="1.8" />
+      <module name="dubbo-apply" target="1.8" />
+      <module name="dubbo-consumer" target="1.8" />
+      <module name="dubbo-facade" target="1.8" />
+      <module name="dubbo-provider" target="1.8" />
       <module name="new-wechat" target="1.8" />
       <module name="phil_wechat" target="1.7" />
+      <module name="rpc-framework" target="1.8" />
       <module name="sell" target="1.8" />
+      <module name="spring-boot-dubbo" target="1.8" />
       <module name="spring-v1" target="1.8" />
       <module name="spring-v3" target="1.8" />
       <module name="springboot-mybatis-demo" target="1.7" />
+      <module name="zk-study" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
