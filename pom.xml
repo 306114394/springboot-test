@@ -141,8 +141,41 @@
 			<artifactId>best-pay-sdk</artifactId>
 			<version>1.2.0</version>
 		</dependency>
-
 	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>central</id>
+			<name>Team Nexus Repository</name>
+			<url>http://114.116.103.231:8081/repository/aliyun-maven2/</url>
+		</repository>
+
+		<repository>
+			<id>releases</id>
+			<name>Team Nexus Repository</name>
+			<url>http://114.116.103.231:8081/repository/public/</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+
+		<repository>
+			<id>snapshots</id>
+			<name>Team Nexus Repository</name>
+			<url>http://114.116.103.231:8081/repository/public/</url>
+		</repository>
+	</repositories>
+
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>maven-net-cn</id>
+			<name>Maven China Mirror</name>
+			<url>http://114.116.103.231:8081/repository/aliyun-maven2/</url>
+
+		</pluginRepository>
+	</pluginRepositories>
+
 
 	<build>
 		<plugins>

@@ -1,4 +1,5 @@
 FROM  192.168.0.81:5000/basoft/maven.3.6.0:latest
+#FROM maven:3.5.0
 MAINTAINER dongxifu
 
 
