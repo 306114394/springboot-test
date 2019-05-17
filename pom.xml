@@ -28,13 +28,13 @@
 		<repository>
 			<id>central</id>
 			<name>Team Nexus Repository</name>
-			<url>http://192.168.0.81:8081/repository/aliyun-maven2</url>
+			<url>http://114.116.103.231:8081/repository/aliyun-maven2</url>
 		</repository>
 
 		<repository>
 			<id>releases</id>
 			<name>Team Nexus Repository</name>
-			<url>http://192.168.0.81:8081/repository/public/</url>
+			<url>http://114.116.103.231:8081/repository/public/</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
@@ -43,7 +43,7 @@
 		<repository>
 			<id>snapshots</id>
 			<name>Team Nexus Repository</name>
-			<url>http://192.168.0.81:8081/repository/public/</url>
+			<url>http://114.116.103.231:8081/repository/public/</url>
 		</repository>
 	</repositories>
 

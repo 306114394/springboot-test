@@ -23,23 +23,9 @@
     <bookmark url="file://$PROJECT_DIR$/../../project/smart-menu-endpoint/eorder/src/main/java/com/basoft/eorder/foundation/jdbc/base/JdbcBaseQueryFacade.java" description="children.add(newCategoryDTO(war,builders));" line="98" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="caa79e66-a920-4e9b-b94d-8ea9c3f4ac3e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapping/GirlMapper.xml" />
+    <list default="true" readonly="true" id="caa79e66-a920-4e9b-b94d-8ea9c3f4ac3e" name="Default" comment="docker 编译">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/basoft/service/entity/Girl.java" afterPath="$PROJECT_DIR$/src/main/java/com/basoft/service/entity/Girl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/mapper/GirlMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/winter/mapper/GirlMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/service/impl/GirlServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/winter/service/impl/GirlServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/test/BenchmarkTests.java" afterPath="$PROJECT_DIR$/src/main/java/com/winter/test/BenchmarkTests.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/winter/util/UidGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/com/winter/util/UidGenerator.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" afterPath="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/UserMapperExt.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/winter/springboot/SpringbootMybatisApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/winter/springboot/SpringbootMybatisApplicationTests.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generator/generatorConfig.xml" afterPath="$PROJECT_DIR$/target/classes/generator/generatorConfig.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapping/UserMapperExt.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/winter/springboot/SpringbootMybatisApplicationTests$QueryRequest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/winter/springboot/SpringbootMybatisApplicationTests$QueryRequest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../spring5_IOC-master-3b1686f73fa1ab587e77d365af246d424ed87c72/target/" />
@@ -75,11 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+            <state relative-caret-position="-1471">
+              <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -95,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GirlController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GirlController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/controller/GirlController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="104">
+              <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -179,7 +165,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/winter/CorsFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/winter/service/WebSocket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/winter/controller/GirlController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/winter/springboot/Singleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/winter/util/WebSocketConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/winter/springboot/UseCase.java" />
@@ -227,6 +212,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/winter/mapper/GirlMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapping/GirlMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/winter/util/UidGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/winter/controller/GirlController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -284,8 +270,9 @@
     <option name="vmOptions" value="-Dmaven.multiModuleProjectDirectory=$M2_HOME" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="794" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -433,66 +420,6 @@
             <path>
               <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapping" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -928,7 +855,7 @@
       <workItem from="1557727427882" duration="3842000" />
       <workItem from="1557800502614" duration="662000" />
       <workItem from="1557842204876" duration="5935000" />
-      <workItem from="1557990484499" duration="9244000" />
+      <workItem from="1557990484499" duration="10553000" />
     </task>
     <task id="LOCAL-00001" summary="springbootredis">
       <created>1539141329362</created>
@@ -1056,7 +983,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556680664139</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="docker 编译">
+      <created>1558063935820</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1558063935820</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1092,7 +1026,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321150000" />
+    <option name="totallyTimeSpent" value="322459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -1117,9 +1051,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6311971" sideWeight="0.49713877" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7605804" sideWeight="0.8834178" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22128174" sideWeight="0.49761093" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3683834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123337366" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4993954" sideWeight="0.49761093" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16452074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -1175,6 +1109,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -1189,7 +1149,8 @@
     <MESSAGE value="war" />
     <MESSAGE value="设计模式" />
     <MESSAGE value="maven私服" />
-    <option name="LAST_COMMIT_MESSAGE" value="maven私服" />
+    <MESSAGE value="docker 编译" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker 编译" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1660,14 +1621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1686,8 +1639,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/winter/controller/GirlController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="104">
+          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1471">
+          <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
           <folding />
         </state>
       </provider>
