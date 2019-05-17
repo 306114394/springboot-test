@@ -6,8 +6,7 @@
 	<groupId>com.winter</groupId>
 	<artifactId>springboot-mybatis-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
-
+	<packaging>jar</packaging>
 	<name>springboot-mybatis-test</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -22,7 +21,31 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.7</java.version>
+		<ip>192.168.0.81:8081</ip>
 	</properties>
+
+	<repositories>
+		<repository>
+			<id>central</id>
+			<name>Team Nexus Repository</name>
+			<url>http://192.168.0.81:8081/repository/aliyun-maven2</url>
+		</repository>
+
+		<repository>
+			<id>releases</id>
+			<name>Team Nexus Repository</name>
+			<url>http://192.168.0.81:8081/repository/public/</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+
+		<repository>
+			<id>snapshots</id>
+			<name>Team Nexus Repository</name>
+			<url>http://192.168.0.81:8081/repository/public/</url>
+		</repository>
+	</repositories>
 
 	<dependencies>
 		<dependency>
@@ -75,10 +98,10 @@
 			<version>5.1.35</version>
 		</dependency>
 
-		<dependency>
+		<!--<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
+		</dependency>-->
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -143,38 +166,16 @@
 		</dependency>
 	</dependencies>
 
-	<repositories>
-		<repository>
-			<id>central</id>
-			<name>Team Nexus Repository</name>
-			<url>http://114.116.103.231:8081/repository/aliyun-maven2/</url>
-		</repository>
-
-		<repository>
-			<id>releases</id>
-			<name>Team Nexus Repository</name>
-			<url>http://114.116.103.231:8081/repository/public/</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-
-		<repository>
-			<id>snapshots</id>
-			<name>Team Nexus Repository</name>
-			<url>http://114.116.103.231:8081/repository/public/</url>
-		</repository>
-	</repositories>
 
 
-	<pluginRepositories>
+
+	<!--<pluginRepositories>
 		<pluginRepository>
 			<id>maven-net-cn</id>
 			<name>Maven China Mirror</name>
 			<url>http://114.116.103.231:8081/repository/aliyun-maven2/</url>
-
 		</pluginRepository>
-	</pluginRepositories>
+	</pluginRepositories>-->
 
 
 	<build>
@@ -221,6 +222,125 @@
 					<!--</dependency>-->
 				</dependencies>
 			</plugin>
+
+
+
+
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<configuration>
+					<outputDirectory>${project.build.directory}/lib</outputDirectory>
+					<excludeTransitive>false</excludeTransitive> <!-- 表示是否不包含间接依赖的包 -->
+					<stripVersion>false</stripVersion> <!-- 去除版本信息 -->
+				</configuration>
+
+				<executions>
+					<execution>
+						<id>copy-dependencies</id>
+						<phase>package</phase>
+						<goals>
+							<goal>copy-dependencies</goal>
+						</goals>
+						<configuration>
+							<!-- 拷贝项目依赖包到lib/目录下 -->
+							<outputDirectory>${project.build.directory}/lib</outputDirectory>
+							<excludeTransitive>false</excludeTransitive>
+							<stripVersion>false</stripVersion>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+
+
+
+			<!-- 项目资源插件 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.6</version>
+				<executions>
+					<execution>
+						<id>copy-resources</id>
+						<phase>package</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<encoding>UTF-8</encoding>
+							<!-- 拷贝项目src/main/resources/下，除.bat以外的所有文件到conf/目录下 -->
+							<outputDirectory>${project.build.directory}/conf</outputDirectory>
+							<resources>
+								<resource>
+									<directory>src/main/resources/</directory>
+									<filtering>true</filtering>
+									<excludes>
+										<exclude>*.bat</exclude>
+									</excludes>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+					<execution>
+						<id>copy-command</id>
+						<phase>package</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<encoding>UTF-8</encoding>
+							<!-- 只拷贝项目src/main/resources/目录下的.sh文件到输出目录下 -->
+							<outputDirectory>${project.build.directory}</outputDirectory>
+							<resources>
+								<resource>
+									<directory>src/main/resources/</directory>
+									<filtering>true</filtering>
+									<includes>
+										<include>*.sh</include>
+									</includes>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<archive>
+						<!-- 生成MANIFEST.MF的设置 -->
+						<manifest>
+							<!-- 为依赖包添加路径, 这些路径会写在MANIFEST文件的Class-Path下 -->
+							<addClasspath>true</addClasspath>
+							<classpathPrefix>lib/</classpathPrefix>
+							<!-- jar启动入口类-->
+							<mainClass>com.winter.SpringbootTestApplication</mainClass>
+						</manifest>
+						<manifestEntries>
+							<!-- 在Class-Path下添加配置文件的路径 -->
+							<Class-Path>conf/</Class-Path>
+							<Class-Path>.</Class-Path>
+						</manifestEntries>
+					</archive>
+					<includes>
+						<!-- 打jar包时，只打包class文件 -->
+						<include>**/*.class</include>
+					</includes>
+				</configuration>
+			</plugin>
+
+
 		</plugins>
 	</build>
+
+
+
+
+
+
 </project>

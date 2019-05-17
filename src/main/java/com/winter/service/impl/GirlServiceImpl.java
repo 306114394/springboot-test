@@ -61,6 +61,6 @@ public class GirlServiceImpl implements GirlService {
 
     @Override
     public int saveGirl(Girl girl) {
-        return  girlMapper.saveGril(girl);
+        return  girlMapper.insert(girl);
     }
 }

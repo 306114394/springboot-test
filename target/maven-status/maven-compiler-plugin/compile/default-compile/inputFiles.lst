@@ -5,6 +5,7 @@
 /Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/winter/util/RedisUtil.java
 /Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/winter/service/base/IdService.java
 /Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/basoft/service/entity/CmCodeWithBLOBs.java
+/Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/basoft/service/entity/GirlWithBLOBs.java
 /Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/winter/enumerate/BusinessTypeEnum.java
 /Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/winter/service/base/IdServiceImpl.java
 /Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/basoft/service/entity/CmCode.java
@@ -12,6 +13,9 @@
 /Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/winter/service/impl/GirlServiceImpl.java
 /Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/winter/model/UserExample.java
 /Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/winter/model/User.java
+/Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/basoft/service/entity/ReviewWithBLOBs.java
+/Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/basoft/service/entity/ReviewExample.java
+/Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/winter/mapper/ReviewMapper.java
 /Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/winter/util/UidGenerator.java
 /Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/basoft/service/entity/StringAddress.java
 /Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/basoft/service/entity/EorderCategoryExample.java
@@ -22,6 +26,7 @@
 /Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/winter/service/GirlService.java
 /Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/winter/util/WebSocketConfig.java
 /Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/winter/controller/GirlController.java
+/Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/basoft/service/entity/Review.java
 /Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/basoft/service/entity/EorderCategory.java
 /Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/basoft/service/entity/CmCodeExample.java
 /Users/a/Downloads/ideaProject/springboot-test/src/main/java/com/winter/mapper/GirlMapper.java

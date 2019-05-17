@@ -9,8 +9,29 @@ import java.util.List;
 
 @Repository
 public interface GirlMapper {
-    List<Girl> findALl();
-    Girl findOne();
+    int deleteByExample(GirlExample example);
 
-    int saveGril(Girl girl);
+    int deleteByPrimaryKey(Long id);
+
+    int insert(Girl record);
+
+    int insertSelective(Girl record);
+
+    Girl selectByPrimaryKey(Long id);
+
+    int updateByExampleSelective(@Param("record") Girl record, @Param("example") GirlExample example);
+
+    int updateByExampleWithBLOBs(@Param("record") Girl record, @Param("example") GirlExample example);
+
+    int updateByExample(@Param("record") Girl record, @Param("example") GirlExample example);
+
+    int updateByPrimaryKeySelective(Girl record);
+
+    int updateByPrimaryKeyWithBLOBs(Girl record);
+
+    int updateByPrimaryKey(Girl record);
+
+    Girl  findOne();
+
+    List<Girl> findALl();
 }

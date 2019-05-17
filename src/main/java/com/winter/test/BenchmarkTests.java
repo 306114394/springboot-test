@@ -2,7 +2,6 @@ package com.winter.test;
 
 import com.basoft.service.entity.Girl;
 import com.winter.service.GirlService;
-import javafx.application.Application;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.junit.After;

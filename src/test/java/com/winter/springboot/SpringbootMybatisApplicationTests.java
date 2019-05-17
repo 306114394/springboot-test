@@ -83,7 +83,7 @@ public class SpringbootMybatisApplicationTests {
 			girl.setAge(18);
 			girl.setCup("c");
 			girl.setName("小红");
-			girl.setTimestamp(System.currentTimeMillis());
+			//girl.setTimestamp(System.currentTimeMillis());
 
 			synchronized(this){
 					  //girlService.findUserALl();

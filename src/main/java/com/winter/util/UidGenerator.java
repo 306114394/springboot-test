@@ -30,9 +30,9 @@ public class UidGenerator {
 
 	// 序列号
 	private long sequence = 0L;
-	@Value("${region-id}")
+	//@Value("${region-id}")
 	private long regionId;
-	@Value("${worker-id}")
+	//@Value("${worker-id}")
 	private long workerId;
 
 	public long generate(BusinessTypeEnum businessType) {
