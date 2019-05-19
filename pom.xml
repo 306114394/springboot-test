@@ -24,6 +24,12 @@
 	</properties>
 
 	<repositories>
+		<repository>
+			<id>central</id>
+			<name>Team Nexus Repository</name>
+			<url>http://114.116.103.231:8081/repository/aliyun-maven2/</url>
+		</repository>
+
 		<!--<repository>
 			<id>aliyunmaven</id>
 			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
